@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:padding="@dimen/space_small"
+        android:text="@string/android_fundamentals"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_medium"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_text_view"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_light"
+            android:gravity="center"
+            android:text="@string/this_is_an_orange_text_view"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_medium" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_text_view"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_light"
+            android:gravity="center"
+            android:text="@string/this_is_a_green_text_view"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_medium" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_text_view"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:text="@string/this_is_a_blue_text_view"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_medium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_text_view"
+            android:layout_margin="@dimen/very_small_dim"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="@string/this_is_a_button" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/very_small_dim"
+            android:layout_weight="1"
+            android:background="@android:color/holo_orange_light"
+            android:scaleType="centerInside"
+            android:src="@drawable/paint" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/very_small_dim"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_light"
+            android:text="@string/this_is_a_green_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/this_is_an_edit_text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/this_is_a_new_edit_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="@string/notify_me" />
+
+        <Switch
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="@string/auto_backup" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/really_small"
+        android:background="@android:color/holo_purple" />
+
+    <RatingBar
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:progressTint="@android:color/holo_red_light"
+        android:rating="4"
+        android:stepSize="1" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/really_small"
+        android:background="@android:color/holo_purple" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no" />
+
+    </RadioGroup>
+
+</LinearLayout>
