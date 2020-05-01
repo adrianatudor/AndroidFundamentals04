@@ -12,4 +12,16 @@
     <string name="this_is_a_green_text_view">This is a green TextView</string>
     <string name="this_is_an_orange_text_view">This is an orange TextView</string>
     <string name="this_is_a_blue_text_view">This is a blue TextView</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="terms_and_conditions">Terms and conditions</string>
+    <string name="error_validate_email">Please fill the email address</string>
+    <string name="error_validate_terms_and_cond">Please accept terms and conditions</string>
+    <string name="error_validate_phone">Please fill the phone number</string>
+    <string name="submit">Submit</string>
+    <string name="selected_spinner">Selected: </string>
+    <string name="spinner_pick">Please pick an android version!</string>
+    <string name="spinner_example">Spinner Example</string>
+    <string name="text">A view group that allows the view hierarchy placed within it to be scrolled. Scroll view may have only one direct child placed within it. To add multiple views within the scroll view, make the direct child you add a view group, for example LinearLayout, and place additional views within that LinearLayout.</string>
 </resources>
