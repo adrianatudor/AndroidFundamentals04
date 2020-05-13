@@ -11,4 +11,7 @@
     <dimen name="view_small">30dp</dimen>
     <dimen name="margin_medium">16dp</dimen>
     <dimen name="margin_small">24dp</dimen>
+    <dimen name="margin_second">20dp</dimen>
+    <dimen name="margin_third">40dp</dimen>
+    <dimen name="dimen_photo">200dp</dimen>
 </resources>
