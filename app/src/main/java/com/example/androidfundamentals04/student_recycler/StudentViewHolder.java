@@ -1,7 +1,6 @@
-package com.example.androidfundamentals04.recycler_view;
+package com.example.androidfundamentals04.student_recycler;
 
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;

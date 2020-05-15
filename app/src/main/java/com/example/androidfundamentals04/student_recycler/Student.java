@@ -1,4 +1,4 @@
-package com.example.androidfundamentals04.recycler_view;
+package com.example.androidfundamentals04.student_recycler;
 
 public class Student {
     private String FirstName;

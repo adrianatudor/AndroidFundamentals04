@@ -1,4 +1,4 @@
-package com.example.androidfundamentals04.recycler_view;
+package com.example.androidfundamentals04.student_recycler;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;

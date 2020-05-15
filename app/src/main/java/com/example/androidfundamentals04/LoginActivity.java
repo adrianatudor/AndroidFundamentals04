@@ -53,10 +53,6 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private boolean isEmailValid(String email) {
-        if (Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            return true;
-        } else {
-            return false;
-        }
+        return Patterns.EMAIL_ADDRESS.matcher(email).matches();
     }
 }

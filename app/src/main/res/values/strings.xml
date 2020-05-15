@@ -29,4 +29,17 @@
     <string name="have_yourself_a_merry_little_christmas">Have yourself a merry little Christmas, \nLet your heart be light \nFrom now on, our troubles will be out of sight</string>
     <string name="let_it_snow">Let it snow</string>
     <string name="gingles_belles">Gingles Belles</string>
+    <string name="go_to_next_activity">Go to next activity</string>
+    <string name="url">URL</string>
+    <string name="open_website">Open website</string>
+    <string name="city">City</string>
+    <string name="open_location">Open location</string>
+    <string name="message">Message</string>
+    <string name="phone_number">Phone number</string>
+    <string name="share_text">share text</string>
+    <string name="call">Call</string>
+    <string name="text_one">Text one</string>
+    <string name="text_two">Text two</string>
+    <string name="text_three">Text three</string>
+    <string name="send">SEND</string>
 </resources>
